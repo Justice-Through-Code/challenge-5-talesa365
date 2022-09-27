@@ -10,7 +10,7 @@ def day_of_week():
     # 1.2 TODO: Write another for loop that does the same thing, but this time use the range function
     for i in range(len(days)):
         print(days[i])
-day_of_week()
+#day_of_week()
 
 def favorite_activities():
     # 2.1 TODO: Now, in a for loop, instead of just printing out the day,
@@ -41,7 +41,7 @@ def favorite_activities():
   
   
        
-favorite_activities()
+#favorite_activities()
 
 '''
     Take a look back at the code you just wrote. Look at how much it does!
@@ -73,7 +73,7 @@ def temp_by_day():
        else:
            print("Put on some sunscreen!")
            
-temp_by_day()
+#temp_by_day()
 
 def temp_by_day_continuous():
     # 4 TODO: Write a program that asks the user what temperature it is outside. While the temperature is below 65,
@@ -89,4 +89,4 @@ def temp_by_day_continuous():
 
     # NOTE: remember, if you accidentally create an infinite while loop, it's ok! Go into the command line and
     # hit control + C to stop the program. No harm done to your computer (:
-temp_by_day_continuous()
+#temp_by_day_continuous()
