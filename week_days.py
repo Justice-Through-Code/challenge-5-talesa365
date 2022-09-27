@@ -83,7 +83,7 @@ def temp_by_day_continuous():
     while temp < 65:
         print("Wear a sweater")
         temp = int(input("What is the temperature outside?"))
-    print("Spring has sprung")
+    print("Spring has sprung!")
     
     
 
