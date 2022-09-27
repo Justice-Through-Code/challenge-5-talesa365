@@ -35,7 +35,7 @@ def favorite_activities():
     # Each time through this new loop, use the index number to index into each of your lists for the data
     # you need to print out.
     for i in range(len(favorite_thing)):
-        print(f'On {days[i]}s, your favorite activity is to {user_favorite[i]}.')
+        print(f'On {days[i]}s, your favorite activity is to {favorite_thing[i]}.')
   
   
        
@@ -70,6 +70,7 @@ def temp_by_day():
             print("Cozy, grab a sweater")
        else:
            print("Put on some sunscreen!")
+temp_by_day()
 
 def temp_by_day_continuous():
     # 4 TODO: Write a program that asks the user what temperature it is outside. While the temperature is below 65,
@@ -80,6 +81,8 @@ def temp_by_day_continuous():
         print("Wear a sweater")
         temp = int(input("What is the temperature outside?"))
     print("Spring has sprung")
+    
+
     # NOTE: remember, if you accidentally create an infinite while loop, it's ok! Go into the command line and
     # hit control + C to stop the program. No harm done to your computer (:
 temp_by_day_continuous()
