@@ -72,7 +72,7 @@ def temp_by_day():
             print("Cozy, grab a sweater")
        else:
            print("Put on some sunscreen!")
-           break
+           
 temp_by_day()
 
 def temp_by_day_continuous():
@@ -84,6 +84,7 @@ def temp_by_day_continuous():
         print("Wear a sweater")
         temp = int(input("What is the temperature outside?"))
     print("Spring has sprung")
+    
     
 
     # NOTE: remember, if you accidentally create an infinite while loop, it's ok! Go into the command line and
