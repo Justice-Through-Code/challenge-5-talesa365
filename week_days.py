@@ -80,7 +80,7 @@ def temp_by_day_continuous():
     # tell the user to wear a sweater. Once the temperature is over 65, stop looping, and tell the user that
     # Spring has sprung!
     temp = int(input("What is the temperature outside?"))
-    while temp <= 65:
+    while temp < 65:
         print("Wear a sweater")
         temp = int(input("What is the temperature outside?"))
     print("Spring has sprung!")
